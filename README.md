@@ -22,19 +22,6 @@ Due to file size limitations, the dataset is not included in this repository.
 👉 Download from Kaggle:
 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
-⚙️ NLP Pipeline
-Raw Text
-   ↓
-Text Preprocessing
-   ↓
-Feature Engineering (BoW, TF-IDF)
-   ↓
-Model Training
-   ↓
-Evaluation
-   ↓
-Comparison & Insights
-🧹 Text Preprocessing
 
 The following preprocessing steps were applied to clean and normalize the text data:
 
@@ -63,15 +50,17 @@ The following Machine Learning models were implemented:
 Logistic Regression
 Naive Bayes (MultinomialNB)
 Decision Tree
+
+
 📊 Model Performance
 Model	Accuracy
 Logistic Regression	88.46%
 Naive Bayes	84.89%
 Decision Tree	71.64%
+
+
 📈 Evaluation Metrics
-
 Models were evaluated using:
-
 Accuracy
 Precision
 Recall
